@@ -55,65 +55,7 @@ aside .consumi li p {
     background: #2187e7;
 }
 
-.totale {
-    width: 70%;
-    animation: totale 1.5s;
-}
 
-@keyframes totale {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 70%;
-    }
-}
-
-.luci {
-    width: 30%;
-    animation: luci 1.5s;
-}
-
-@keyframes luci {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 30%;
-    }
-}
-
-.elettro {
-    width: 25%;
-    animation: elettro 2s;
-}
-
-@keyframes elettro {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 25%;
-    }
-}
-
-.batteria {
-    width: 15%;
-    animation: battery 2s;
-}
-
-@keyframes battery {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 15%;
-    }
-}
 
 .details {
     background-color: #333;
@@ -135,15 +77,12 @@ aside .consumi li p {
     text-shadow: 0 0 10px #2187e7b3;
     margin-left: 15px;
     margin-bottom: 25px;
+    
 }
 
 #container {
     margin-top: 40px;
 }
-
-
-
-
 
 .switch {
     position: relative;
